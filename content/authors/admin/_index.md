@@ -2,6 +2,8 @@
 # Display name
 title: Savio Sunny
 
+# Name pronunciation (optional)
+name_pronunciation: Savio
 
 # Full name (for SEO)
 first_name: Savio
@@ -9,15 +11,18 @@ last_name: Sunny
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: AI/ML Engineer
+role: Student
 
-
+# Organizations/Affiliations to display in Biography blox
+organizations:
+  - name: Rset
+    url: https://www.example.com/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -25,27 +30,73 @@ profiles:
   - icon: at-symbol
     url: 'mailto:saviosunny48@gmail.com'
     label: E-mail Me
-  -
+  - icon: brands/x
+    url: https://twitter.com/GetResearchDev
   - icon: brands/github
     url: https://github.com/S48avio
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/savio-sunny-4171b124b/
-
+    url: https://www.linkedin.com/
+  - icon: brands/instagram
+    url: https://www.instagram.com/
 
 education:
-  - area: B.Tech in AI/DS
-    institution: Rajagiri School of Engineering and Technology
-    date_start: 2019-05-01
-    date_end: 2025-04-05
+  - area: BTECH Artificial Intelligence and Data Science
+    institution: Rajagiri School Of Engineering and Technlogy
+    date_start: 2021-11-15
+    date_end: 2025-06-30
+    # summary: |
+    #   Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+    # button:
+    #   text: 'Read Thesis'
+    #   url: 'https://example.com'
+  - area: Higher secondary
+    institution: ST.Thomas
+    date_start: 2006-01-01
+    date_end: 2021-05-30
     summary: |
-      Gained experience in Various Ai and Ml models and Trained in web development and Big Data Analytics
-    
-  - area: Secondary Education
-    institution: Anita Public  School
+      GPA: 9.16/10
+
+  #     Courses included:
+  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  # - area: BSc Artificial Intelligence
+  #   institution: Massachusetts Institute of Technology
+  #   date_start: 2016-01-01
+  #   date_end: 2020-12-31
+  #   summary: |
+  #     GPA: 3.4/4.0
+      
+  #     Courses included:
+  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
+work:
+  - position: Director of Cloud Infrastructure
+    company_name: GenCoin
+    company_url: ''
+    company_logo: ''
+    date_start: 2021-01-01
+    date_end: ''
+    summary: |2-
+      Responsibilities include:
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - position: Backend Software Engineer
+    company_name: X
+    company_url: ''
+    company_logo: ''
     date_start: 2016-01-01
     date_end: 2020-12-31
-    
-  
+    summary: |
+      Responsibilities include:
+      - Migrated infrastructure to a new data center
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+
+# Skills
+# Add your own SVG icons to `assets/media/icons/`
 skills:
   - name: Technical Skills
     items:
@@ -57,15 +108,15 @@ skills:
         description: ''
         percent: 100
         icon: devicon/rstudio
-      - name: PyTorch
+      - name: sql
         description: ''
-        percent: 40
-        icon: devicon/pytorch
+        percent: 60
+        icon: devicon/sql
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Running
+      - name: Dancing
         description: ''
         percent: 60
         icon: person-simple-walk
@@ -84,7 +135,7 @@ languages:
   - name: Malayalam
     percent: 100
   - name: Hindi
-    percent: 75
+    percent: 25
 
 # Awards.
 #   Add/remove as many awards below as you like.
@@ -118,4 +169,4 @@ awards:
       Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
 ---
 
-I am currently Director of Cloud Infrastructure at GenCoin where I am leading teams on edge computing, deep sea data center architecture, and hivemind optimization.
+I am a student at RSET currently Pursuing Btech in Artificial Intelligence and Data Science.
